@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/admin/cron/updateBTC</url>
+    <description>Update BTC price</description>
+    <schedule>every 1 minutes</schedule>
+  </cron>
+  
+  <cron>
+    <url>/admin/cron/sendMails</url>
+    <description>Send Alerts</description>
+    <schedule>every 3 minutes</schedule>
+  </cron>
+   <cron>
+    <url>/admin/cron/autoTrade</url>
+    <description>Auto trade coins</description>
+    <schedule>every 2 minutes</schedule>
+  </cron>
+</cronentries>
